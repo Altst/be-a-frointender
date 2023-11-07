@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import User from './User.js';
-import Modal from './Modal.js';
+import User from './User.jsx';
+import Modal from './Modal.jsx';
 
 function App() {
   const usersApi = "https://jsonplaceholder.typicode.com/users"
